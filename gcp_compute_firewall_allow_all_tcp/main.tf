@@ -49,3 +49,5 @@ resource "google_compute_firewall" "default" {
 output "ip" {
  value = google_compute_instance.default.network_interface.0.access_config.0.nat_ip
 }
+
+# Modified [main.tf] on [2020-11-23 13:35:44.424620]
